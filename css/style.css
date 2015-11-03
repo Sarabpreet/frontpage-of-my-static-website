@@ -1,0 +1,208 @@
+/*
+orrange main: #f1ad09;
+yellow on icons: #ffdd3c;
+text color main: 43484a;
+text color primary: cfc9c9;
+bluecolor: #57c1df;
+*/
+.popup{
+color:white;
+padding:30px;
+position:fixed;
+background:#e75b76;
+z-index: 6;
+font-size: 20px;
+display: none;
+width:100%;
+top:95px;
+text-align: center;
+cursor: pointer;
+}
+*{
+margin:0px;
+padding:0px;
+border:0px;
+}
+body {
+font-size: 1em;
+background: url('../images/mishika.jpg') no-repeat right 90px #ededed;
+background-attachment: fixed;
+text-align:center;
+font-family: 'Lato', sans-serif;
+color:#43484a;
+}
+.longani{
+-webkit-transition: all 1000ms ease;
+-moz-transition: all 1000ms ease;
+-ms-transition: all 1000ms ease;
+-o-transition: all 1000ms ease;
+transition: all 1000ms ease;
+cursor: pointer;
+}
+.longani:hover{
+background: #c3475e;
+}
+#wrap{
+width:75%;
+min-width: 450px;
+margin: 0 auto;
+text-align:center;
+}
+.margin {
+background:#57c1df;
+height: 20px;
+margin-bottom: 40px;
+}
+}
+header {
+}
+nav ul li {
+float:right;
+list-style: none;
+margin-right: 10px;
+color:#cfc9c9;
+text-transform: uppercase;
+}
+nav .line {
+width:100%;
+height:5px;
+position: relative;
+top: 8px;
+background:#57c1df;
+}
+nav ul li a {
+text-decoration: none;
+color:#e75b76;
+letter-spacing: 2px;
+font-weight: 600;
+}
+.norm {
+clear: both;
+font-size: .8em;
+margin-bottom: 5px;
+}
+h1 {
+font-size: 1.5em;
+font-weight:100;
+margin:0px auto 30px;
+}
+.avatar {
+background:gainsboro;
+width: 144px;
+height:144px;
+margin:  0 auto;
+border-radius: 72px;
+}
+.playback {
+margin: 20px;
+font-size: 85px;
+color:#f1ad09;
+font-weight: bold;
+letter-spacing: -1px;
+}
+.social ul li {
+display: inline-block;
+list-style: none;
+font-size: .8em;
+margin:2px 10px;
+font-weight: bold;
+}
+.social ul li a {
+
+width:20px;
+height:20px;
+padding:20px;
+display: block;
+font-size: 20px;
+border-radius: 30px;
+background:#57c1df;
+color:#ffdd3c;
+margin: 10px 0px;
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+.social ul li a:hover{
+
+background:#43484a;
+
+}
+footer {
+
+margin-top: 280px;
+text-transform: uppercase;
+color:#cfc9c9;
+font-weight: bold;
+margin-bottom: 90px;
+}
+.fa-heart:hover {
+color:#e75b76;
+}
+footer a {
+color:#a39c9c;
+text-decoration: none;
+
+}
+/*typejs cursor*/
+.typed-cursor{
+opacity: 1;
+-webkit-animation: blink 0.7s infinite;
+-moz-animation: blink 0.7s infinite;
+animation: blink 0.7s infinite;
+z-index: 2;
+}
+@keyframes blink{
+0% { opacity:1; }
+50% { opacity:0; }
+100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+0% { opacity:1; }
+50% { opacity:0; }
+100% { opacity:1; }
+}
+@-moz-keyframes blink{
+0% { opacity:1; }
+50% { opacity:0; }
+100% { opacity:1; }
+}
+.ani{
+
+background:#e75b76;
+transform: rotate(0deg);
+-webkit-animation: that 2s infinite;
+-moz-animation: that 2s infinite;
+animation: that 2s infinite;
+
+}
+@keyframes that{
+0% { background:#e75b76;
+	transform: rotate(0deg);
+}
+50%{	background:#62b252;
+		transform: scale(1.1);}
+
+100% { background: #c3475e;
+	transform: rotate(0deg);
+
+}
+}
+@-webkit-keyframes that{
+0% { background:#e75b76;
+}
+50%{	background:#62b252;}
+100% { background: #c3475e;
+}
+@-moz-keyframes that{
+0% { background:#e75b76;
+}
+50% {	background:#62b252;}
+100% { background: #c3475e;
+}
+}
+
+
+
+
