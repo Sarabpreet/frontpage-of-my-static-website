@@ -6,7 +6,7 @@ doc.addEventListener("click",function () {
 	// body..
 
 	count++;
-	popup("Great!, i am currently looking for internships, shoot me a mail at hello@sarabpreet.in :) ");
+	popup("That's nice! shoot me a mail at <a href='mailto:hello@sarabpreet.in'>hello@sarabpreet.in</a> for internship orpotunities");
 });
 
 
@@ -30,7 +30,7 @@ if(count%2==0) {
 
 
 	pop.style.display="block";
-	doc.innerHTML="close";
+	doc.innerHTML="close <i class='fa fa-close'>";
 	pop.className="popup ani";
 	body.style.opacity=".2";
 
@@ -39,7 +39,7 @@ if(count%2==0) {
 else {
 
 pop.style.display="none";
-doc.innerHTML="hire";
+	doc.innerHTML="hire <i class='fa fa-arrow-right'>";
 pop.className="popup";
 	body.style.opacity="1";
 

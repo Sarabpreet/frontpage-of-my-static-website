@@ -45,17 +45,39 @@ background: #c3475e;
 #wrap{
 width:75%;
 min-width: 450px;
-margin: 0 auto;
+margin: 40px auto 0px;;
 text-align:center;
+
 }
 .margin {
 background:#57c1df;
 height: 20px;
-margin-bottom: 40px;
 }
+
+
+.left,.right{
+
+	background: #57c1df;
+
 }
-header {
+
+.left {
+  right:0px;
+	height:9000px;
+	width: 20px;
+	position: fixed;
+	top: -60px;
+	 
 }
+
+.right {
+	height:9000px;
+	width: 20px;
+	position: fixed;
+		top: -60px;
+	 
+}
+
 nav ul li {
 float:right;
 list-style: none;
@@ -80,11 +102,13 @@ font-weight: 600;
 clear: both;
 font-size: .8em;
 margin-bottom: 5px;
+text-align: center;
 }
 h1 {
 font-size: 1.5em;
 font-weight:100;
 margin:0px auto 30px;
+clear:both;
 }
 .avatar {
 background:gainsboro;
@@ -126,7 +150,8 @@ transition: all 500ms ease;
 }
 .social ul li a:hover{
 
-background:#43484a;
+background:#4cafcb;
+color:white;
 
 }
 footer {
@@ -178,31 +203,24 @@ animation: that 2s infinite;
 
 }
 @keyframes that{
-0% { background:#e75b76;
-	transform: rotate(0deg);
-}
-50%{	background:#62b252;
-		transform: scale(1.1);}
-
-100% { background: #c3475e;
-	transform: rotate(0deg);
-
-}
+0% { background:#59aa77;}
+50%{	background:#529e6e;}
+100% { background:#59aa77;}
 }
 @-webkit-keyframes that{
-0% { background:#e75b76;
-}
-50%{	background:#62b252;}
-100% { background: #c3475e;
+0% { background:#59aa77;}
+50%{	background:#529e6e;}
+100% { background:#59aa77;}
 }
 @-moz-keyframes that{
-0% { background:#e75b76;
-}
-50% {	background:#62b252;}
-100% { background: #c3475e;
-}
+0% { background:#59aa77;}
+50%{	background:#529e6e;}
+100% { background:#59aa77;}
 }
 
 
 
+.popup a {
 
+	color:white;
+}
