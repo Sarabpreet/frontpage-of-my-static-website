@@ -61,6 +61,12 @@ height: 20px;
 
 }
 
+
+.avatar {
+	
+	
+	
+}
 .left {
   right:0px;
 	height:9000px;
@@ -111,7 +117,7 @@ margin:0px auto 30px;
 clear:both;
 }
 .avatar {
-background:gainsboro;
+background:url('../images/avatar.png') center center no-repeat;
 width: 144px;
 height:144px;
 margin:  0 auto;
@@ -221,6 +227,12 @@ animation: that 2s infinite;
 
 
 .popup a {
-
+  font-style: italic;
 	color:white;
+}
+
+.and {
+
+	font-size: 130px;
+
 }

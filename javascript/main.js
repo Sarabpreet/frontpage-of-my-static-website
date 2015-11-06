@@ -6,7 +6,7 @@ doc.addEventListener("click",function () {
 	// body..
 
 	count++;
-	popup("That's nice! shoot me a mail at <a href='mailto:hello@sarabpreet.in'>hello@sarabpreet.in</a> for internship orpotunities");
+	popup("Awesome!! shoot me a mail at <a href='mailto:hello@sarabpreet.in'>hello@sarabpreet.in</a> ");
 });
 
 
