@@ -15,7 +15,7 @@ pop.addEventListener("click",function () {
 	pop.style.display="none";
 	doc.innerHTML="hire";
 	pop.className="popup";
-	body.style.opacity="1";
+
 	count--;
 
 });
@@ -32,7 +32,7 @@ if(count%2==0) {
 	pop.style.display="block";
 	doc.innerHTML="close <i class='fa fa-close'>";
 	pop.className="popup ani";
-	body.style.opacity=".2";
+	
 
 }
 
