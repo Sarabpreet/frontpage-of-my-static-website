@@ -236,3 +236,61 @@ animation: that 2s infinite;
 	font-size: 130px;
 
 }
+
+.blog-post .info {
+	
+	font-size: 12px;
+	text-transform: uppercase;
+	margin:30px 0px;
+	padding: 12px;
+	clear:both;
+}
+
+
+.blog-post .info a{
+	
+	
+	color:darkgray;
+	text-decoration: none;
+}
+.blog {
+	
+	background: white;
+	padding:50px;
+	overflow: hidden;
+}
+
+.blog-post h2 {
+
+	text-align: center;
+	margin: 30px;
+}
+.blog-post {
+	font-size: 24px;
+	line-height: 2;
+	text-align: left;
+	padding:30px;
+	border-bottom: aliceblue thin solid;
+	
+}
+
+.blog-post {
+font-family: 'Source Sans Pro', sans-serif;
+overflow: hidden;
+	
+}
+.blog-post .leftimg {
+	
+display: inline-block;
+	padding:30px 30px;
+	margin: 20px 30px;
+float:left;
+	
+}
+
+p {
+	font-size: 20px;
+	padding: 30px;
+	
+	
+}
